@@ -1,0 +1,177 @@
+[
+  {
+    "ammunitionId": "556x45",
+    "label": "55 FMJ",
+    "damage": 52,
+    "penetration": 24,
+    "armourDamage": 33
+  },
+  {
+    "ammunitionId": "556x45",
+    "label": "55 HP",
+    "damage": 72,
+    "penetration": 9,
+    "armourDamage": 22
+  },
+  {
+    "ammunitionId": "556x45",
+    "label": "M855",
+    "damage": 49,
+    "penetration": 26,
+    "armourDamage": 37
+  },
+  {
+    "ammunitionId": "556x45",
+    "label": "M855A1",
+    "damage": 44,
+    "penetration": 40,
+    "armourDamage": 52
+  },
+  {
+    "ammunitionId": "556x45",
+    "label": "M856",
+    "damage": 55,
+    "penetration": 23,
+    "armourDamage": 54
+  },
+  {
+    "ammunitionId": "556x45",
+    "label": "M856A1",
+    "damage": 51,
+    "penetration": 37,
+    "armourDamage": 52
+  },
+  {
+    "ammunitionId": "556x45",
+    "label": "M995",
+    "damage": 41,
+    "penetration": 53,
+    "armourDamage": 58
+  },
+  {
+    "ammunitionId": "556x45",
+    "label": "Mk 255 Mod 0",
+    "damage": 60,
+    "penetration": 17,
+    "armourDamage": 32
+  },
+  {
+    "ammunitionId": "556x45",
+    "label": "Warmage",
+    "damage": 85,
+    "penetration": 3,
+    "armourDamage": 14
+  },
+  {
+    "ammunitionId": "762x39",
+    "label": "BP",
+    "damage": 58,
+    "penetration": 47,
+    "armourDamage": 63
+  },
+  {
+    "ammunitionId": "762x39",
+    "label": "HP",
+    "damage": 83,
+    "penetration": 15,
+    "armourDamage": 35
+  },
+  {
+    "ammunitionId": "762x39",
+    "label": "PS",
+    "damage": 54,
+    "penetration": 34,
+    "armourDamage": 52
+  },
+  {
+    "ammunitionId": "762x39",
+    "label": "T45M",
+    "damage": 62,
+    "penetration": 31,
+    "armourDamage": 46
+  },
+  {
+    "ammunitionId": "762x39",
+    "label": "US",
+    "damage": 56,
+    "penetration": 29,
+    "armourDamage": 42
+  },
+  {
+    "ammunitionId": "545x39",
+    "label": "7N39",
+    "damage": 37,
+    "penetration": 62,
+    "armourDamage": 60
+  },
+  {
+    "ammunitionId": "545x39",
+    "label": "BP",
+    "damage": 48,
+    "penetration": 32,
+    "armourDamage": 41
+  },
+  {
+    "ammunitionId": "545x39",
+    "label": "BS",
+    "damage": 40,
+    "penetration": 51,
+    "armourDamage": 57
+  },
+  {
+    "ammunitionId": "545x39",
+    "label": "BT",
+    "damage": 44,
+    "penetration": 37,
+    "armourDamage": 49
+  },
+  {
+    "ammunitionId": "545x39",
+    "label": "FMJ",
+    "damage": 54,
+    "penetration": 20,
+    "armourDamage": 30
+  },
+  {
+    "ammunitionId": "545x39",
+    "label": "HP",
+    "damage": 74,
+    "penetration": 11,
+    "armourDamage": 49
+  },
+  {
+    "ammunitionId": "545x39",
+    "label": "PP",
+    "damage": 46,
+    "penetration": 30,
+    "armourDamage": 32
+  },
+  {
+    "ammunitionId": "545x39",
+    "label": "PRS",
+    "damage": 60,
+    "penetration": 14,
+    "armourDamage": 28
+  },
+  {
+    "ammunitionId": "545x39",
+    "label": "PS",
+    "damage": 50,
+    "penetration": 25,
+    "armourDamage": 35
+  },
+  {
+    "ammunitionId": "545x39",
+    "label": "SP",
+    "damage": 68,
+    "penetration": 11,
+    "armourDamage": 34
+  },
+  {
+    "ammunitionId": "545x39",
+    "label": "T",
+    "damage": 57,
+    "penetration": 20,
+    "armourDamage": 38
+  }
+]
