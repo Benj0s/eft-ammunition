@@ -52,7 +52,9 @@
   }
 
   .graph {
+    display: flex;
     flex: 1;
+    height: 100%;
   }
 
   svg {
