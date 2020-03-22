@@ -1,6 +1,6 @@
 <script>
   import Header from "./components/Header.svelte";
-  import AmmoGraph from "./components/AmmoGraph.svelte";
+  import AmmoGraph from "./components//ammo-graph/AmmoGraph.svelte";
 
   import ammunitionDataService from "./services/ammunition.data.service.js";
   import cartridgesDataService from "./services/cartridges.data.service.js";

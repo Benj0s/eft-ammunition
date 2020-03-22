@@ -1,8 +1,8 @@
 <script>
   import { onMount } from "svelte";
   import { scaleLinear } from "d3-scale";
-  import { generateHexColourFromString } from "../services/colour-mapper.service";
-  import { maxAndPad } from "./AmmoGraph.service.js";
+  import { generateHexColourFromString } from "../../services/colour-mapper.service";
+  import { maxAndPad, generateTicks } from "./AmmoGraph.service.js";
 
   export let ammunition;
   export let cartridges;
