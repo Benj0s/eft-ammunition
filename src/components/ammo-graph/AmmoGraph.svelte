@@ -2,6 +2,7 @@
   import { onMount } from "svelte";
   import { scaleLinear } from "d3-scale";
   import { generateHexColourFromString } from "../services/colour-mapper.service";
+  import { maxAndPad } from "./AmmoGraph.service.js";
 
   export let ammunition;
   export let cartridges;
@@ -11,32 +12,19 @@
   let height = 500;
 
   const padding = { top: 40, right: 40, bottom: 40, left: 40 };
-  const maxDamage =
-    Math.ceil(
-      Math.max.apply(null, cartridges.map(cartridge => cartridge.damage)) / 10
-    ) * 10;
-  const maxPenetration =
-    Math.ceil(
-      Math.max.apply(null, cartridges.map(cartridge => cartridge.penetration)) /
-        10
-    ) * 10;
-  const damageTicks = Array(maxDamage / 10 + 1)
-    .fill()
-    .map((a, i) => i * 10);
-  const penetrationTicks = Array(maxPenetration / 10 + 1)
-    .fill()
-    .map((a, i) => i * 10);
+  const maxDamage = maxAndPad(cartridges.map(cartridge => cartridge.damage));
+  const maxPen = maxAndPad(cartridges.map(cartridge => cartridge.penetration));
 
   $: xScale = scaleLinear()
     .domain([0, maxDamage])
     .range([padding.left, width - padding.right]);
 
   $: yScale = scaleLinear()
-    .domain([0, maxPenetration])
+    .domain([0, maxPen])
     .range([height - padding.bottom, padding.top]);
 
-  $: xTicks = damageTicks;
-  $: yTicks = penetrationTicks;
+  $: xTicks = generateTicks(maxDamage);
+  $: yTicks = generateTicks(maxPen);
 
   onMount(resize);
 
