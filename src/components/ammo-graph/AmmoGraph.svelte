@@ -80,6 +80,11 @@
     <svg bind:this={svg}>
       <!-- y axis -->
       <g class="axis y-axis">
+        <text
+          text-anchor="middle"
+          transform="translate(0, {xScale(maxPen) / 2}) rotate(90)">
+          Penetration
+        </text>
         {#each yTicks as tick}
           <g class="tick tick-{tick}" transform="translate(0, {yScale(tick)})">
             <line x1={padding.left} x2={xScale(100)} />
@@ -90,6 +95,9 @@
 
       <!-- x axis -->
       <g class="axis x-axis">
+        <text text-anchor="middle" x={xScale(maxDamage) / 2} y={height - 2}>
+          Damage
+        </text>
         {#each xTicks as tick}
           <g class="tick" transform="translate({xScale(tick)},0)">
             <line y1={yScale(0)} y2={yScale(100)} />
