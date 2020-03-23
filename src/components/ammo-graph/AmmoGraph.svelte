@@ -65,6 +65,9 @@
     fill: #999;
   }
 
+  .armour-class {
+    fill: #ddd;
+  }
   .x-axis text {
     text-anchor: middle;
   }
@@ -85,10 +88,15 @@
           transform="translate(0, {xScale(maxPen) / 2}) rotate(90)">
           Penetration
         </text>
-        {#each yTicks as tick}
+        {#each yTicks as tick, i}
           <g class="tick tick-{tick}" transform="translate(0, {yScale(tick)})">
             <line x1={padding.left} x2={xScale(100)} />
             <text x={padding.left - 8} y="+4">{tick}</text>
+            {#if i > 0}
+              <text class="armour-class" x={padding.left + 90} y="-2">
+                Armour class {tick / 10}
+              </text>
+            {/if}
           </g>
         {/each}
       </g>
