@@ -4,7 +4,6 @@
   import { generateHexColourFromString } from "../../services/colour-mapper.service";
   import { maxAndPad, generateTicks } from "./AmmoGraph.service.js";
 
-  export let ammunition;
   export let cartridges;
 
   let svg;
@@ -34,7 +33,7 @@
 </script>
 
 <style>
-  .graph-wrapper {
+  .ammo-graph {
     height: 100%;
     display: flex;
   }
@@ -78,7 +77,7 @@
 </style>
 
 <svelte:window on:resize={resize} />
-<div class="graph-wrapper">
+<div class="ammo-graph">
   <div class="graph">
     <svg bind:this={svg}>
       <!-- y axis -->

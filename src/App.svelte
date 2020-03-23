@@ -1,6 +1,7 @@
 <script>
   import Header from "./components/Header.svelte";
-  import AmmoGraph from "./components//ammo-graph/AmmoGraph.svelte";
+  import AmmoGraph from "./components/ammo-graph/AmmoGraph.svelte";
+  import AmmoGrapKey from "./components/ammo-graph-key/AmmoGraphKey.svelte";
 
   import ammunitionDataService from "./services/ammunition.data.service.js";
   import cartridgesDataService from "./services/cartridges.data.service.js";
@@ -31,6 +32,11 @@
     display: grid;
     grid-template-rows: auto 1fr;
   }
+
+  main {
+    display: flex;
+    flex-direction: column;
+  }
 </style>
 
 <div class="layout-wrapper">
@@ -40,7 +46,8 @@
     {#await fetchData()}
       <p>loading...</p>
     {:then data}
-      <AmmoGraph cartridges={data.cartridges} ammunition={data.ammunition} />
+      <AmmoGraph cartridges={data.cartridges} />
+      <AmmoGrapKey ammunition={data.ammunition} />
     {/await}
   </main>
 </div>
