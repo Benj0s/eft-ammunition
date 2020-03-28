@@ -43,7 +43,7 @@
   }
 
   li {
-    padding: 20px;
+    padding: 4px;
     display: flex;
     align-content: center;
     justify-content: center;
