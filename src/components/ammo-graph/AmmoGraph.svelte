@@ -3,8 +3,17 @@
   import { scaleLinear } from "d3-scale";
   import { generateHexColourFromString } from "../../services/colour-mapper.service";
   import { maxAndPad, generateTicks } from "./AmmoGraph.service.js";
+  import { ammoKeys } from "../../store.js";
 
   export let cartridges;
+
+  let selectedCartridges;
+
+  ammoKeys.subscribe(keys => {
+    selectedCartridges = cartridges.filter(cartridge =>
+      keys.includes(cartridge.ammunitionId)
+    );
+  });
 
   let svg;
   let width = 500;
@@ -114,7 +123,7 @@
       </g>
 
       <!-- data -->
-      {#each cartridges as cartridge}
+      {#each selectedCartridges as cartridge}
         <circle
           cx={xScale(cartridge.damage)}
           cy={yScale(cartridge.penetration)}
