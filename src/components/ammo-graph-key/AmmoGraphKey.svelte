@@ -8,7 +8,7 @@
   let selectedKeys;
 
   ammoKeys.update(() => {
-    return ammunition.map(ammo => ammo.id);
+    return [ammunition[0].id];
   });
 
   const unsubscribe = ammoKeys.subscribe(keys => {
@@ -21,7 +21,9 @@
       const index = arr.indexOf(keyId);
 
       if (index > -1) {
-        arr.splice(index, 1);
+        if (arr.length > 1) {
+          arr.splice(index, 1);
+        }
       } else {
         arr.push(keyId);
       }

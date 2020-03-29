@@ -173,5 +173,628 @@
     "damage": 57,
     "penetration": 20,
     "armourDamage": 38
+  },
+  {
+    "ammunitionId": "762x51",
+    "label": "BPZ FMJ",
+    "damage": 88,
+    "penetration": 31,
+    "armourDamage": 33
+  },
+  {
+    "ammunitionId": "762x51",
+    "label": "M61",
+    "damage": 70,
+    "penetration": 68,
+    "armourDamage": 83
+  },
+  {
+    "ammunitionId": "762x51",
+    "label": "M62",
+    "damage": 79,
+    "penetration": 54,
+    "armourDamage": 75
+  },
+  {
+    "ammunitionId": "762x51",
+    "label": "M80",
+    "damage": 80,
+    "penetration": 41,
+    "armourDamage": 75
+  },
+  {
+    "ammunitionId": "762x51",
+    "label": "TPZ SP",
+    "damage": 60,
+    "penetration": 36,
+    "armourDamage": 40
+  },
+  {
+    "ammunitionId": "762x51",
+    "label": "Ultra Nosler",
+    "damage": 102,
+    "penetration": 15,
+    "armourDamage": 20
+  },
+  {
+    "ammunitionId": "762x54R",
+    "label": "7BT1",
+    "damage": 78,
+    "penetration": 59,
+    "armourDamage": 87
+  },
+  {
+    "ammunitionId": "762x54R",
+    "label": "7N1 Sniper cartridge",
+    "damage": 86,
+    "penetration": 45,
+    "armourDamage": 84
+  },
+  {
+    "ammunitionId": "762x54R",
+    "label": "7N37",
+    "damage": 72,
+    "penetration": 70,
+    "armourDamage": 88
+  },
+  {
+    "ammunitionId": "762x54R",
+    "label": "LPS Gzh",
+    "damage": 81,
+    "penetration": 42,
+    "armourDamage": 78
+  },
+  {
+    "ammunitionId": "762x54R",
+    "label": "SNB",
+    "damage": 75,
+    "penetration": 62,
+    "armourDamage": 87
+  },
+  {
+    "ammunitionId": "762x54R",
+    "label": "T-46M",
+    "damage": 82,
+    "penetration": 41,
+    "armourDamage": 83
+  },
+  {
+    "ammunitionId": "9x39",
+    "label": "7N9 SPP",
+    "damage": 67,
+    "penetration": 45,
+    "armourDamage": 56
+  },
+  {
+    "ammunitionId": "9x39",
+    "label": "7N12 BP",
+    "damage": 60,
+    "penetration": 50,
+    "armourDamage": 68
+  },
+  {
+    "ammunitionId": "9x39",
+    "label": "SP-5",
+    "damage": 68,
+    "penetration": 35,
+    "armourDamage": 52
+  },
+  {
+    "ammunitionId": "9x39",
+    "label": "SP-6",
+    "damage": 58,
+    "penetration": 43,
+    "armourDamage": 60
+  },
+  {
+    "ammunitionId": "366TKM",
+    "label": "EKO",
+    "damage": 65,
+    "penetration": 30,
+    "armourDamage": 38
+  },
+  {
+    "ammunitionId": "366TKM",
+    "label": "FMJ",
+    "damage": 73,
+    "penetration": 20,
+    "armourDamage": 36
+  },
+  {
+    "ammunitionId": "366TKM",
+    "label": "Geska",
+    "damage": 80,
+    "penetration": 14,
+    "armourDamage": 38
+  },
+  {
+    "ammunitionId": "127x55",
+    "label": "PS12",
+    "damage": 115,
+    "penetration": 28,
+    "armourDamage": 60
+  },
+  {
+    "ammunitionId": "127x55",
+    "label": "PS12A",
+    "damage": 165,
+    "penetration": 10,
+    "armourDamage": 22
+  },
+  {
+    "ammunitionId": "127x55",
+    "label": "PS12B",
+    "damage": 102,
+    "penetration": 46,
+    "armourDamage": 57
+  },
+  {
+    "ammunitionId": "762x25",
+    "label": "AKBS",
+    "damage": 58,
+    "penetration": 9,
+    "armourDamage": 32
+  },
+  {
+    "ammunitionId": "762x25",
+    "label": "FMJ43",
+    "damage": 60,
+    "penetration": 8,
+    "armourDamage": 29
+  },
+  {
+    "ammunitionId": "762x25",
+    "label": "LRN",
+    "damage": 64,
+    "penetration": 6,
+    "armourDamage": 28
+  },
+  {
+    "ammunitionId": "762x25",
+    "label": "LRNPC",
+    "damage": 66,
+    "penetration": 5,
+    "armourDamage": 27
+  },
+  {
+    "ammunitionId": "762x25",
+    "label": "P gl",
+    "damage": 58,
+    "penetration": 10,
+    "armourDamage": 32
+  },
+  {
+    "ammunitionId": "762x25",
+    "label": "Pst gzh",
+    "damage": 58,
+    "penetration": 10,
+    "armourDamage": 32
+  },
+  {
+    "ammunitionId": "762x25",
+    "label": "PT gzh",
+    "damage": 60,
+    "penetration": 12,
+    "armourDamage": 34
+  },
+  {
+    "ammunitionId": "9x18",
+    "label": "9 BZT gzh",
+    "damage": 55,
+    "penetration": 16,
+    "armourDamage": 28
+  },
+  {
+    "ammunitionId": "9x18",
+    "label": "9 P gzh",
+    "damage": 50,
+    "penetration": 5,
+    "armourDamage": 16
+  },
+  {
+    "ammunitionId": "9x18",
+    "label": "PBM",
+    "damage": 44,
+    "penetration": 22,
+    "armourDamage": 30
+  },
+  {
+    "ammunitionId": "9x18",
+    "label": "PMM",
+    "damage": 56,
+    "penetration": 25,
+    "armourDamage": 33
+  },
+  {
+    "ammunitionId": "9x18",
+    "label": "PPe gzh",
+    "damage": 61,
+    "penetration": 7,
+    "armourDamage": 15
+  },
+  {
+    "ammunitionId": "9x18",
+    "label": "PPT gzh",
+    "damage": 59,
+    "penetration": 8,
+    "armourDamage": 22
+  },
+  {
+    "ammunitionId": "9x18",
+    "label": "PRS gs",
+    "damage": 58,
+    "penetration": 6,
+    "armourDamage": 16
+  },
+  {
+    "ammunitionId": "9x18",
+    "label": "PS gs PPO",
+    "damage": 55,
+    "penetration": 6,
+    "armourDamage": 16
+  },
+  {
+    "ammunitionId": "9x18",
+    "label": "PSO gzh",
+    "damage": 54,
+    "penetration": 5,
+    "armourDamage": 13
+  },
+  {
+    "ammunitionId": "9x18",
+    "label": "Pst gzh",
+    "damage": 50,
+    "penetration": 12,
+    "armourDamage": 26
+  },
+  {
+    "ammunitionId": "9x18",
+    "label": "PSV",
+    "damage": 69,
+    "penetration": 3,
+    "armourDamage": 5
+  },
+  {
+    "ammunitionId": "9x18",
+    "label": "RG028 gzh",
+    "damage": 65,
+    "penetration": 13,
+    "armourDamage": 26
+  },
+  {
+    "ammunitionId": "9x18",
+    "label": "SP7 gzh",
+    "damage": 77,
+    "penetration": 2,
+    "armourDamage": 5
+  },
+  {
+    "ammunitionId": "9x18",
+    "label": "SP8 gzh",
+    "damage": 67,
+    "penetration": 1,
+    "armourDamage": 2
+  },
+  {
+    "ammunitionId": "9x19",
+    "label": "AP 6.3",
+    "damage": 52,
+    "penetration": 25,
+    "armourDamage": 48
+  },
+  {
+    "ammunitionId": "9x19",
+    "label": "GT",
+    "damage": 58,
+    "penetration": 14,
+    "armourDamage": 33
+  },
+  {
+    "ammunitionId": "9x19",
+    "label": "Luger CCI",
+    "damage": 70,
+    "penetration": 10,
+    "armourDamage": 38
+  },
+  {
+    "ammunitionId": "9x19",
+    "label": "PSO gzh",
+    "damage": 56,
+    "penetration": 10,
+    "armourDamage": 38
+  },
+  {
+    "ammunitionId": "9x19",
+    "label": "Pst gzh",
+    "damage": 54,
+    "penetration": 18,
+    "armourDamage": 33
+  },
+  {
+    "ammunitionId": "9x19",
+    "label": "RIP",
+    "damage": 102,
+    "penetration": 2,
+    "armourDamage": 11
+  },
+  {
+    "ammunitionId": "9x19",
+    "label": "RIP",
+    "damage": 102,
+    "penetration": 2,
+    "armourDamage": 11
+  },
+  {
+    "ammunitionId": "9x21",
+    "label": "SP10",
+    "damage": 49,
+    "penetration": 32,
+    "armourDamage": 46
+  },
+  {
+    "ammunitionId": "9x21",
+    "label": "SP11",
+    "damage": 70,
+    "penetration": 16,
+    "armourDamage": 44
+  },
+  {
+    "ammunitionId": "9x21",
+    "label": "SP12",
+    "damage": 75,
+    "penetration": 14,
+    "armourDamage": 63
+  },
+  {
+    "ammunitionId": "9x21",
+    "label": "SP13",
+    "damage": 62,
+    "penetration": 36,
+    "armourDamage": 47
+  },
+  {
+    "ammunitionId": "46x30",
+    "label": "Action SX",
+    "damage": 65,
+    "penetration": 13,
+    "armourDamage": 39
+  },
+  {
+    "ammunitionId": "46x30",
+    "label": "AP SX",
+    "damage": 35,
+    "penetration": 47,
+    "armourDamage": 46
+  },
+  {
+    "ammunitionId": "46x30",
+    "label": "FMJ SX",
+    "damage": 43,
+    "penetration": 30,
+    "armourDamage": 41
+  },
+  {
+    "ammunitionId": "46x30",
+    "label": "Subsonic SX",
+    "damage": 41,
+    "penetration": 34,
+    "armourDamage": 46
+  },
+  {
+    "ammunitionId": "57x28",
+    "label": "L191",
+    "damage": 58,
+    "penetration": 33,
+    "armourDamage": 41
+  },
+  {
+    "ammunitionId": "57x28",
+    "label": "R37.F",
+    "damage": 98,
+    "penetration": 8,
+    "armourDamage": 7
+  },
+  {
+    "ammunitionId": "57x28",
+    "label": "R37.X",
+    "damage": 81,
+    "penetration": 11,
+    "armourDamage": 14
+  },
+  {
+    "ammunitionId": "57x28",
+    "label": "SB193",
+    "damage": 54,
+    "penetration": 35,
+    "armourDamage": 37
+  },
+  {
+    "ammunitionId": "57x28",
+    "label": "SS190",
+    "damage": 49,
+    "penetration": 37,
+    "armourDamage": 43
+  },
+  {
+    "ammunitionId": "57x28",
+    "label": "SS197SR",
+    "damage": 62,
+    "penetration": 20,
+    "armourDamage": 22
+  },
+  {
+    "ammunitionId": "57x28",
+    "label": "SS198LF",
+    "damage": 74,
+    "penetration": 10,
+    "armourDamage": 15
+  },
+  {
+    "ammunitionId": "12x70BUCK",
+    "label": "5.25mm (x8)",
+    "damage": 34,
+    "penetration": 1,
+    "armourDamage": 15
+  },
+  {
+    "ammunitionId": "12x70BUCK",
+    "label": "6.5mm (x9)",
+    "damage": 29,
+    "penetration": 3,
+    "armourDamage": 26
+  },
+  {
+    "ammunitionId": "12x70BUCK",
+    "label": "7mm (x8)",
+    "damage": 32,
+    "penetration": 3,
+    "armourDamage": 26
+  },
+  {
+    "ammunitionId": "12x70BUCK",
+    "label": "8.5mm (x8)",
+    "damage": 44,
+    "penetration": 2,
+    "armourDamage": 26
+  },
+  {
+    "ammunitionId": "12x70SLUG",
+    "label": "AP-20",
+    "damage": 164,
+    "penetration": 32,
+    "armourDamage": 65
+  },
+  {
+    "ammunitionId": "12x70SLUG",
+    "label": "Dual Sabot",
+    "damage": 75,
+    "penetration": 17,
+    "armourDamage": 65
+  },
+  {
+    "ammunitionId": "12x70BUCK",
+    "label": "Flechette (x8)",
+    "damage": 19,
+    "penetration": 28,
+    "armourDamage": 26
+  },
+  {
+    "ammunitionId": "12x70SLUG",
+    "label": "FTX",
+    "damage": 153,
+    "penetration": 18,
+    "armourDamage": 50
+  },
+  {
+    "ammunitionId": "12x70SLUG",
+    "label": "Grizzly",
+    "damage": 170,
+    "penetration": 12,
+    "armourDamage": 48
+  },
+  {
+    "ammunitionId": "12x70SLUG",
+    "label": "HP Sabot",
+    "damage": 160,
+    "penetration": 13,
+    "armourDamage": 46
+  },
+  {
+    "ammunitionId": "12x70SLUG",
+    "label": "HP SF",
+    "damage": 190,
+    "penetration": 2,
+    "armourDamage": 12
+  },
+  {
+    "ammunitionId": "12x70SLUG",
+    "label": "Led",
+    "damage": 147,
+    "penetration": 15,
+    "armourDamage": 45
+  },
+  {
+    "ammunitionId": "12x70SLUG",
+    "label": "Poleva-3",
+    "damage": 130,
+    "penetration": 17,
+    "armourDamage": 40
+  },
+  {
+    "ammunitionId": "12x70SLUG",
+    "label": "Poleva-6u",
+    "damage": 140,
+    "penetration": 20,
+    "armourDamage": 50
+  },
+  {
+    "ammunitionId": "12x70SLUG",
+    "label": "RIP",
+    "damage": 235,
+    "penetration": 0,
+    "armourDamage": 11
+  },
+  {
+    "ammunitionId": "12x70SLUG",
+    "label": ".50 BMG",
+    "damage": 177,
+    "penetration": 23,
+    "armourDamage": 57
+  },
+  {
+    "ammunitionId": "20x70BUCK",
+    "label": "5.6mm (x8)",
+    "damage": 25,
+    "penetration": 1,
+    "armourDamage": 12
+  },
+  {
+    "ammunitionId": "20x70BUCK",
+    "label": "6.2mm (x8)",
+    "damage": 21,
+    "penetration": 2,
+    "armourDamage": 13
+  },
+  {
+    "ammunitionId": "20x70BUCK",
+    "label": "7.3mm (x9)",
+    "damage": 22,
+    "penetration": 3,
+    "armourDamage": 13
+  },
+  {
+    "ammunitionId": "20x70BUCK",
+    "label": "7.5mm (x8)",
+    "damage": 24,
+    "penetration": 3,
+    "armourDamage": 14
+  },
+  {
+    "ammunitionId": "20x70SLUG",
+    "label": "Devastator",
+    "damage": 188,
+    "penetration": 4,
+    "armourDamage": 13
+  },
+  {
+    "ammunitionId": "20x70SLUG",
+    "label": "Poleva-3",
+    "damage": 110,
+    "penetration": 14,
+    "armourDamage": 35
+  },
+  {
+    "ammunitionId": "20x70SLUG",
+    "label": "Poleva-6u",
+    "damage": 120,
+    "penetration": 17,
+    "armourDamage": 40
+  },
+  {
+    "ammunitionId": "20x70SLUG",
+    "label": "Star",
+    "damage": 134,
+    "penetration": 16,
+    "armourDamage": 42
   }
 ]

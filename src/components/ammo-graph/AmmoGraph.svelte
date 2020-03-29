@@ -98,9 +98,9 @@
         </text>
         {#each yTicks as tick, i}
           <g class="tick tick-{tick}" transform="translate(0, {yScale(tick)})">
-            <line x1={padding.left} x2={xScale(100)} />
+            <line x1={padding.left} x2={xScale(maxDamage)} />
             <text x={padding.left - 8} y="+4">{tick}</text>
-            {#if i > 0}
+            {#if i > 0 && i < yTicks.length - 1}
               <text class="armour-class" x={padding.left + 90} y="-2">
                 Armour class {tick / 10}
               </text>
@@ -116,7 +116,7 @@
         </text>
         {#each xTicks as tick}
           <g class="tick" transform="translate({xScale(tick)},0)">
-            <line y1={yScale(0)} y2={yScale(100)} />
+            <line y1={yScale(0)} y2={yScale(maxPen)} />
             <text y={height - padding.bottom + 16}>{tick}</text>
           </g>
         {/each}
