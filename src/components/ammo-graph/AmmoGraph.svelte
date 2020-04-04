@@ -9,19 +9,26 @@
 
   let selectedCartridges;
 
-  ammoKeys.subscribe(keys => {
-    selectedCartridges = cartridges.filter(cartridge =>
-      keys.includes(cartridge.ammunitionId)
-    );
-  });
-
   let svg;
   let width = 500;
   let height = 500;
 
   const padding = { top: 40, right: 40, bottom: 40, left: 40 };
-  const maxDamage = maxAndPad(cartridges.map(cartridge => cartridge.damage));
-  const maxPen = maxAndPad(cartridges.map(cartridge => cartridge.penetration));
+  let maxDamage = maxAndPad(cartridges.map(cartridge => cartridge.damage));
+  let maxPen = maxAndPad(cartridges.map(cartridge => cartridge.penetration));
+
+  ammoKeys.subscribe(keys => {
+    selectedCartridges = cartridges.filter(cartridge =>
+      keys.includes(cartridge.ammunitionId)
+    );
+
+    if (selectedCartridges.length) {
+      maxDamage = maxAndPad(
+        selectedCartridges.map(cartridge => cartridge.damage)
+      );
+      maxPen = maxAndPad(cartridges.map(cartridge => cartridge.penetration));
+    }
+  });
 
   $: xScale = scaleLinear()
     .domain([0, maxDamage])
