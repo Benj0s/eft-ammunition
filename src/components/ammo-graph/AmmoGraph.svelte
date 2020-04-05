@@ -70,7 +70,7 @@
   }
 
   .tick line {
-    stroke: #a4a4a4;
+    stroke: #7f7f7f;
     stroke-dasharray: 2;
   }
 
@@ -80,7 +80,7 @@
   }
 
   .armour-class {
-    fill: #999;
+    fill: #797979;
   }
   .x-axis text {
     text-anchor: middle;
@@ -110,7 +110,7 @@
       <g class="axis y-axis">
         <text
           text-anchor="middle"
-          transform="translate(0, {xScale(maxPen) / 2}) rotate(90)">
+          transform="translate(0, {height / 2}) rotate(90)">
           Penetration
         </text>
         {#each yTicks as tick, i}
@@ -128,9 +128,7 @@
 
       <!-- x axis -->
       <g class="axis x-axis">
-        <text text-anchor="middle" x={xScale(maxDamage) / 2} y={height - 2}>
-          Damage
-        </text>
+        <text text-anchor="middle" x={width / 2} y={height - 2}>Damage</text>
         {#each xTicks as tick}
           <g class="tick" transform="translate({xScale(tick)},0)">
             <line y1={yScale(0)} y2={yScale(maxPen)} />
