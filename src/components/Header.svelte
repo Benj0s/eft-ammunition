@@ -13,7 +13,7 @@
   header {
     padding: 20px;
     display: flex;
-    align-items: start;
+    align-items: center;
     justify-content: space-between;
     background-color: #454545;
     color: #dedede;
@@ -37,6 +37,34 @@
     font-size: 2.3rem;
     font-weight: 900;
     line-height: 32px;
+  }
+
+  @media (max-width: 610px) {
+    header {
+      flex-direction: column;
+    }
+
+    header :global(.ammo-selector select) {
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+
+  @media (max-width: 390px) {
+    .header-title h1 {
+      font-size: 2rem;
+    }
+  }
+
+  @media (max-width: 350px) {
+    .header-title h1 {
+      font-size: 1.6rem;
+    }
+
+    .header-title h2 {
+      font-size: 1rem;
+      letter-spacing: 4px;
+    }
   }
 </style>
 

@@ -22,7 +22,6 @@
 <style>
   .ammo-selector {
     display: flex;
-    align-self: stretch;
   }
 
   .ammo-selector select {
