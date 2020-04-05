@@ -3,7 +3,7 @@
   import { scaleLinear } from "d3-scale";
   import { generateHexColourFromString } from "../../services/colour-mapper.service";
   import { maxAndPad, generateTicks } from "./AmmoGraph.service.js";
-  import { ammoKeys } from "../../store.js";
+  import { displayedAmmo } from "../../store.js";
 
   export let cartridges;
 
@@ -17,16 +17,18 @@
   let maxDamage = maxAndPad(cartridges.map(cartridge => cartridge.damage));
   let maxPen = maxAndPad(cartridges.map(cartridge => cartridge.penetration));
 
-  ammoKeys.subscribe(keys => {
-    selectedCartridges = cartridges.filter(cartridge =>
-      keys.includes(cartridge.ammunitionId)
+  displayedAmmo.subscribe(ammo => {
+    selectedCartridges = cartridges.filter(
+      cartridge => ammo.id === cartridge.ammunitionId
     );
 
     if (selectedCartridges.length) {
       maxDamage = maxAndPad(
         selectedCartridges.map(cartridge => cartridge.damage)
       );
-      maxPen = maxAndPad(cartridges.map(cartridge => cartridge.penetration));
+      maxPen = maxAndPad(
+        selectedCartridges.map(cartridge => cartridge.penetration)
+      );
     }
   });
 
@@ -50,8 +52,10 @@
 
 <style>
   .ammo-graph {
+    padding: 6px;
     height: 100%;
     display: flex;
+    background-color: #565656;
   }
 
   .graph {
@@ -65,23 +69,18 @@
     height: 100%;
   }
 
-  circle {
-    fill-opacity: 0.6;
-    stroke: rgba(0, 0, 0, 0.5);
-  }
-
   .tick line {
-    stroke: #ddd;
+    stroke: #a4a4a4;
     stroke-dasharray: 2;
   }
 
   text {
     font-size: 12px;
-    fill: #999;
+    fill: #ddd;
   }
 
   .armour-class {
-    fill: #ddd;
+    fill: #999;
   }
   .x-axis text {
     text-anchor: middle;
@@ -89,6 +88,17 @@
 
   .y-axis text {
     text-anchor: end;
+  }
+
+  .mark-circle {
+    fill: #4e8cb6;
+    stroke: #d3d3d3;
+    opacity: 0.9;
+  }
+
+  .mark-text {
+    stroke-width: 2px;
+    fill: #ddd;
   }
 </style>
 
@@ -135,13 +145,12 @@
           cx={xScale(cartridge.damage)}
           cy={yScale(cartridge.penetration)}
           r="5"
-          fill={generateHexColourFromString(cartridge.ammunitionId)} />
+          class="mark-circle" />
         <text
           x={xScale(cartridge.damage)}
           y={yScale(cartridge.penetration) + 20}
           text-anchor="middle"
-          stroke="gray"
-          stroke-width="1px">
+          class="mark-text">
           {cartridge.label}
         </text>
       {/each}

@@ -1,9 +1,7 @@
 <script>
   import Header from "./components/Header.svelte";
   import AmmoGraph from "./components/ammo-graph/AmmoGraph.svelte";
-  import AmmoGrapKey from "./components/ammo-graph-key/AmmoGraphKey.svelte";
 
-  import ammunitionDataService from "./services/ammunition.data.service.js";
   import cartridgesDataService from "./services/cartridges.data.service.js";
 
   import cartridges from "./data/cartridges.json";
@@ -11,10 +9,9 @@
   export let segment;
 
   async function fetchData() {
-    const ammunition = await ammunitionDataService.list();
     const cartridges = await cartridgesDataService.list();
 
-    return { ammunition, cartridges };
+    return { cartridges };
   }
 </script>
 
@@ -47,7 +44,6 @@
       <p>loading...</p>
     {:then data}
       <AmmoGraph cartridges={data.cartridges} />
-      <AmmoGrapKey ammunition={data.ammunition} />
     {/await}
   </main>
 </div>

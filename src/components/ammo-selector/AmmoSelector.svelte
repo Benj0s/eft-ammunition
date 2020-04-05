@@ -1,0 +1,39 @@
+<script>
+  import { get } from "svelte/store";
+  import { generateHexColourFromString } from "../../services/colour-mapper.service";
+  import { displayedAmmo } from "../../store.js";
+
+  export let ammunition;
+
+  let selected;
+  let selectedAmmo;
+
+  displayedAmmo.update(() => {
+    return ammunition[0];
+  });
+
+  const unsubscribe = displayedAmmo.subscribe(ammo => {
+    selectedAmmo = ammo;
+  });
+
+  $: displayedAmmo.update(() => selectedAmmo);
+</script>
+
+<style>
+  .ammo-selector {
+    display: flex;
+    align-self: stretch;
+  }
+
+  .ammo-selector select {
+    margin: 0;
+  }
+</style>
+
+<div class="ammo-selector">
+  <select bind:value={selectedAmmo}>
+    {#each ammunition as ammo}
+      <option value={ammo}>{ammo.label}</option>
+    {/each}
+  </select>
+</div>
