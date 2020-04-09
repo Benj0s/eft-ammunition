@@ -3,11 +3,13 @@
   import { scaleLinear } from "d3-scale";
   import { generateHexColourFromString } from "../../services/colour-mapper.service";
   import { maxAndPad, generateTicks } from "./AmmoGraph.service.js";
-  import { displayedAmmo } from "../../store.js";
+  import { displayedAmmo, compareAllAmmo } from "../../store.js";
 
   export let cartridges;
 
+  let selectedAmmo;
   let selectedCartridges;
+  let showAll;
 
   let svg;
   let width = 500;
@@ -18,8 +20,18 @@
   let maxPen = maxAndPad(cartridges.map(cartridge => cartridge.penetration));
 
   displayedAmmo.subscribe(ammo => {
+    selectedAmmo = ammo;
+    refreshGraph();
+  });
+
+  compareAllAmmo.subscribe(compare => {
+    showAll = compare;
+    refreshGraph();
+  });
+
+  function refreshGraph() {
     selectedCartridges = cartridges.filter(
-      cartridge => ammo.id === cartridge.ammunitionId
+      cartridge => showAll || selectedAmmo.id === cartridge.ammunitionId
     );
 
     if (selectedCartridges.length) {
@@ -30,7 +42,7 @@
         selectedCartridges.map(cartridge => cartridge.penetration)
       );
     }
-  });
+  }
 
   $: xScale = scaleLinear()
     .domain([0, maxDamage])
@@ -100,6 +112,12 @@
     stroke-width: 2px;
     fill: #ddd;
   }
+
+  .mark-circle:not(.selected),
+  .mark-text:not(.selected) {
+    opacity: 0.2;
+    fill: #ddd;
+  }
 </style>
 
 <svelte:window on:resize={resize} />
@@ -143,12 +161,12 @@
           cx={xScale(cartridge.damage)}
           cy={yScale(cartridge.penetration)}
           r="5"
-          class="mark-circle" />
+          class="mark-circle {selectedAmmo.id === cartridge.ammunitionId ? 'selected' : ''}" />
         <text
           x={xScale(cartridge.damage)}
           y={yScale(cartridge.penetration) + 20}
           text-anchor="middle"
-          class="mark-text">
+          class="mark-text {selectedAmmo.id === cartridge.ammunitionId ? 'selected' : ''}">
           {cartridge.label}
         </text>
       {/each}

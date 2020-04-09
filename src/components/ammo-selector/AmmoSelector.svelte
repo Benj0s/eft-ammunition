@@ -1,7 +1,6 @@
 <script>
-  import { get } from "svelte/store";
-  import { generateHexColourFromString } from "../../services/colour-mapper.service";
   import { displayedAmmo } from "../../store.js";
+  import { generateHexColourFromString } from "../../services/colour-mapper.service";
 
   export let ammunition;
 

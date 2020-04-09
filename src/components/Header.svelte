@@ -1,6 +1,7 @@
 <script>
   import ammunitionDataService from "../services/ammunition.data.service.js";
   import AmmoSelector from "./ammo-selector/AmmoSelector.svelte";
+  import CompareAmmoToggle from "./compare-ammo-toggle/CompareAmmoToggle.svelte";
 
   async function fetchData() {
     const ammunition = await ammunitionDataService.list();
@@ -39,6 +40,11 @@
     line-height: 32px;
   }
 
+  .header-actions {
+    display: flex;
+    flex-direction: row;
+  }
+
   @media (max-width: 610px) {
     header {
       flex-direction: column;
@@ -74,6 +80,9 @@
     <h2>Escape from Tarkov</h2>
   </div>
   {#await fetchData() then data}
-    <AmmoSelector ammunition={data.ammunition} />
+    <div class="header-actions">
+      <CompareAmmoToggle />
+      <AmmoSelector ammunition={data.ammunition} />
+    </div>
   {/await}
 </header>
