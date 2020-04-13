@@ -50,9 +50,8 @@
       flex-direction: column;
     }
 
-    header :global(.ammo-selector select) {
-      width: 100%;
-      margin-top: 10px;
+    .header-actions {
+      margin-top: 20px;
     }
   }
 
@@ -76,8 +75,8 @@
 
 <header>
   <div class="header-title">
-    <h1>Ammunition Graph</h1>
     <h2>Escape from Tarkov</h2>
+    <h1>Ammunition Graph</h1>
   </div>
   {#await fetchData() then data}
     <div class="header-actions">
