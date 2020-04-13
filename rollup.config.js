@@ -4,6 +4,8 @@ import commonjs from '@rollup/plugin-commonjs'
 import json from '@rollup/plugin-json'
 import livereload from 'rollup-plugin-livereload'
 import { terser } from 'rollup-plugin-terser'
+import postcss from 'rollup-plugin-postcss'
+import svg from 'rollup-plugin-svg-import'
 
 const production = !process.env.ROLLUP_WATCH
 
@@ -25,7 +27,7 @@ export default {
         css.write('public/build/bundle.css')
       },
     }),
-
+    svg({ stringify: true }),
     // If you have external dependencies installed from
     // npm, you'll most likely need these plugins. In
     // some cases you'll need additional configuration -
@@ -49,6 +51,19 @@ export default {
     // If we're building for production (npm run build
     // instead of npm run dev), minify
     production && terser(),
+    postcss({
+      extensions: ['.scss', '.sass'],
+      extract: false,
+      minimize: true,
+      use: [
+        [
+          'sass',
+          {
+            includePaths: ['./src/theme', './node_modules'],
+          },
+        ],
+      ],
+    }),
   ],
   watch: {
     clearScreen: false,

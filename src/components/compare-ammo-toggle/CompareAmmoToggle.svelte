@@ -12,7 +12,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 0 10px;
+    margin: 0 20px;
   }
 
   input[name="compare-ammo"] {

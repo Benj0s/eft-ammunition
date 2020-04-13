@@ -1,37 +1,45 @@
 <script>
+  import Select, { Option } from "@smui/select";
+  import Icon from "@smui/select/icon/index";
+  import AmmoIcon from "../../theme/icons/ammo.svg";
   import { displayedAmmo } from "../../store.js";
   import { generateHexColourFromString } from "../../services/colour-mapper.service";
 
   export let ammunition;
 
-  let selected;
   let selectedAmmo;
 
   displayedAmmo.update(() => {
     return ammunition[0];
   });
 
-  const unsubscribe = displayedAmmo.subscribe(ammo => {
-    selectedAmmo = ammo;
-  });
+  // having to set the selectedAmmo using label due to: https://github.com/hperrin/svelte-material-ui/issues/107
+  const unsubscribe = displayedAmmo.subscribe(a => (selectedAmmo = a.label));
 
-  $: displayedAmmo.update(() => selectedAmmo);
+  $: displayedAmmo.update(() => ammunition.find(a => a.label === selectedAmmo));
 </script>
 
 <style>
   .ammo-selector {
     display: flex;
   }
-
-  .ammo-selector select {
-    margin: 0;
-  }
 </style>
 
 <div class="ammo-selector">
-  <select bind:value={selectedAmmo}>
+  <Select
+    bind:value={selectedAmmo}
+    label="Ammunition"
+    variant="outlined"
+    withLeadingIcon>
+    <span slot="icon">
+      <Icon class="material-icons">
+        {@html AmmoIcon}
+      </Icon>
+    </span>
     {#each ammunition as ammo}
-      <option value={ammo}>{ammo.label}</option>
+      <Option value={ammo.id} selected={ammo.label === selectedAmmo}>
+        {ammo.label}
+      </Option>
     {/each}
-  </select>
+  </Select>
 </div>
