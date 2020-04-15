@@ -24,7 +24,7 @@
 
 <div class="compare-ammo-toggle">
   <FormField>
-    <Switch bind:checked />
+    <Switch bind:checked input$aria-checked={checked} />
     <span class="ammo-toggle-label" slot="label">Compare</span>
   </FormField>
 </div>
