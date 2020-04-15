@@ -44,6 +44,10 @@
     }
   }
 
+  function alternateTextPosition(index, padding = 8) {
+    return index % 2 === 0 ? padding : 0;
+  }
+
   $: xScale = scaleLinear()
     .domain([0, maxDamage])
     .range([padding.left, width - padding.right]);
@@ -141,7 +145,7 @@
         {#each yTicks as tick, i}
           <g class="tick tick-{tick}" transform="translate(0, {yScale(tick)})">
             <line x1={padding.left} x2={xScale(maxDamage)} />
-            <text x={padding.left - 8} y="+4">{tick}</text>
+            <text x={padding.left - 4} y="+4">{tick}</text>
             {#if i > 0 && i < yTicks.length - 1}
               <text class="armour-class" x={padding.left + 90} y="-2">
                 Armour class {tick / 10}
@@ -154,10 +158,12 @@
       <!-- x axis -->
       <g class="axis x-axis">
         <text text-anchor="middle" x={width / 2} y={height - 2}>Damage</text>
-        {#each xTicks as tick}
+        {#each xTicks as tick, i}
           <g class="tick" transform="translate({xScale(tick)},0)">
             <line y1={yScale(0)} y2={yScale(maxPen)} />
-            <text y={height - padding.bottom + 16}>{tick}</text>
+            <text y={height - padding.bottom + 10 + alternateTextPosition(i)}>
+              {tick}
+            </text>
           </g>
         {/each}
       </g>
