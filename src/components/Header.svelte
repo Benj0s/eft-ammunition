@@ -31,6 +31,7 @@
     letter-spacing: 6px;
     line-height: 20px;
     margin-bottom: 4px;
+    font-size: 1.2rem;
   }
 
   .header-title h1 {
@@ -48,6 +49,10 @@
   @media (max-width: 610px) {
     header {
       flex-direction: column;
+    }
+
+    .header-title {
+      align-items: center;
     }
 
     .header-actions {
