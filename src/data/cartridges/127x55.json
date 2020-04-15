@@ -1,0 +1,23 @@
+[
+  {
+    "ammunitionId": "127x55",
+    "label": "PS12",
+    "damage": 115,
+    "penetration": 28,
+    "armourDamage": 60
+  },
+  {
+    "ammunitionId": "127x55",
+    "label": "PS12A",
+    "damage": 165,
+    "penetration": 10,
+    "armourDamage": 22
+  },
+  {
+    "ammunitionId": "127x55",
+    "label": "PS12B",
+    "damage": 102,
+    "penetration": 46,
+    "armourDamage": 57
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "ammunitionId": "762x25",
+    "label": "AKBS",
+    "damage": 58,
+    "penetration": 9,
+    "armourDamage": 32
+  },
+  {
+    "ammunitionId": "762x25",
+    "label": "FMJ43",
+    "damage": 60,
+    "penetration": 8,
+    "armourDamage": 29
+  },
+  {
+    "ammunitionId": "762x25",
+    "label": "LRN",
+    "damage": 64,
+    "penetration": 6,
+    "armourDamage": 28
+  },
+  {
+    "ammunitionId": "762x25",
+    "label": "LRNPC",
+    "damage": 66,
+    "penetration": 5,
+    "armourDamage": 27
+  },
+  {
+    "ammunitionId": "762x25",
+    "label": "P gl",
+    "damage": 58,
+    "penetration": 10,
+    "armourDamage": 32
+  },
+  {
+    "ammunitionId": "762x25",
+    "label": "Pst gzh",
+    "damage": 58,
+    "penetration": 10,
+    "armourDamage": 32
+  },
+  {
+    "ammunitionId": "762x25",
+    "label": "PT gzh",
+    "damage": 60,
+    "penetration": 12,
+    "armourDamage": 34
+  }
+]

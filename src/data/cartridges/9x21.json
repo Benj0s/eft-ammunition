@@ -1,0 +1,30 @@
+[
+  {
+    "ammunitionId": "9x21",
+    "label": "SP10",
+    "damage": 49,
+    "penetration": 32,
+    "armourDamage": 46
+  },
+  {
+    "ammunitionId": "9x21",
+    "label": "SP11",
+    "damage": 70,
+    "penetration": 16,
+    "armourDamage": 44
+  },
+  {
+    "ammunitionId": "9x21",
+    "label": "SP12",
+    "damage": 75,
+    "penetration": 14,
+    "armourDamage": 63
+  },
+  {
+    "ammunitionId": "9x21",
+    "label": "SP13",
+    "damage": 62,
+    "penetration": 36,
+    "armourDamage": 47
+  }
+]

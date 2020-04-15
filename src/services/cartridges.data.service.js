@@ -1,4 +1,4 @@
-import cartridges from '../data/cartridges.json'
+import cartridges from '../data/cartridges.js'
 
 const list = async () => {
   return cartridges

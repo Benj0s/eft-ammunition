@@ -4,8 +4,6 @@
 
   import cartridgesDataService from "./services/cartridges.data.service.js";
 
-  import cartridges from "./data/cartridges.json";
-
   export let segment;
 
   async function fetchData() {

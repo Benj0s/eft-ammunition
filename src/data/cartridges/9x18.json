@@ -1,0 +1,100 @@
+[
+  {
+    "ammunitionId": "9x18",
+    "label": "9 BZT gzh",
+    "damage": 55,
+    "penetration": 16,
+    "armourDamage": 28
+  },
+  {
+    "ammunitionId": "9x18",
+    "label": "9 P gzh",
+    "damage": 50,
+    "penetration": 5,
+    "armourDamage": 16
+  },
+  {
+    "ammunitionId": "9x18",
+    "label": "PBM",
+    "damage": 44,
+    "penetration": 22,
+    "armourDamage": 30
+  },
+  {
+    "ammunitionId": "9x18",
+    "label": "PMM",
+    "damage": 56,
+    "penetration": 25,
+    "armourDamage": 33
+  },
+  {
+    "ammunitionId": "9x18",
+    "label": "PPe gzh",
+    "damage": 61,
+    "penetration": 7,
+    "armourDamage": 15
+  },
+  {
+    "ammunitionId": "9x18",
+    "label": "PPT gzh",
+    "damage": 59,
+    "penetration": 8,
+    "armourDamage": 22
+  },
+  {
+    "ammunitionId": "9x18",
+    "label": "PRS gs",
+    "damage": 58,
+    "penetration": 6,
+    "armourDamage": 16
+  },
+  {
+    "ammunitionId": "9x18",
+    "label": "PS gs PPO",
+    "damage": 55,
+    "penetration": 6,
+    "armourDamage": 16
+  },
+  {
+    "ammunitionId": "9x18",
+    "label": "PSO gzh",
+    "damage": 54,
+    "penetration": 5,
+    "armourDamage": 13
+  },
+  {
+    "ammunitionId": "9x18",
+    "label": "Pst gzh",
+    "damage": 50,
+    "penetration": 12,
+    "armourDamage": 26
+  },
+  {
+    "ammunitionId": "9x18",
+    "label": "PSV",
+    "damage": 69,
+    "penetration": 3,
+    "armourDamage": 5
+  },
+  {
+    "ammunitionId": "9x18",
+    "label": "RG028 gzh",
+    "damage": 65,
+    "penetration": 13,
+    "armourDamage": 26
+  },
+  {
+    "ammunitionId": "9x18",
+    "label": "SP7 gzh",
+    "damage": 77,
+    "penetration": 2,
+    "armourDamage": 5
+  },
+  {
+    "ammunitionId": "9x18",
+    "label": "SP8 gzh",
+    "damage": 67,
+    "penetration": 1,
+    "armourDamage": 2
+  }
+]

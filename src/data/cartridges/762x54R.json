@@ -1,0 +1,44 @@
+[
+  {
+    "ammunitionId": "762x54R",
+    "label": "7BT1",
+    "damage": 78,
+    "penetration": 59,
+    "armourDamage": 87
+  },
+  {
+    "ammunitionId": "762x54R",
+    "label": "7N1 Sniper cartridge",
+    "damage": 86,
+    "penetration": 45,
+    "armourDamage": 84
+  },
+  {
+    "ammunitionId": "762x54R",
+    "label": "7N37",
+    "damage": 72,
+    "penetration": 70,
+    "armourDamage": 88
+  },
+  {
+    "ammunitionId": "762x54R",
+    "label": "LPS Gzh",
+    "damage": 81,
+    "penetration": 42,
+    "armourDamage": 78
+  },
+  {
+    "ammunitionId": "762x54R",
+    "label": "SNB",
+    "damage": 75,
+    "penetration": 62,
+    "armourDamage": 87
+  },
+  {
+    "ammunitionId": "762x54R",
+    "label": "T-46M",
+    "damage": 82,
+    "penetration": 41,
+    "armourDamage": 83
+  }
+]

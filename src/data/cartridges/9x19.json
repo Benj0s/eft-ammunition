@@ -1,0 +1,44 @@
+[
+  {
+    "ammunitionId": "9x19",
+    "label": "AP 6.3",
+    "damage": 52,
+    "penetration": 25,
+    "armourDamage": 48
+  },
+  {
+    "ammunitionId": "9x19",
+    "label": "GT",
+    "damage": 58,
+    "penetration": 14,
+    "armourDamage": 33
+  },
+  {
+    "ammunitionId": "9x19",
+    "label": "Luger CCI",
+    "damage": 70,
+    "penetration": 10,
+    "armourDamage": 38
+  },
+  {
+    "ammunitionId": "9x19",
+    "label": "PSO gzh",
+    "damage": 56,
+    "penetration": 10,
+    "armourDamage": 38
+  },
+  {
+    "ammunitionId": "9x19",
+    "label": "Pst gzh",
+    "damage": 54,
+    "penetration": 18,
+    "armourDamage": 33
+  },
+  {
+    "ammunitionId": "9x19",
+    "label": "RIP",
+    "damage": 102,
+    "penetration": 2,
+    "armourDamage": 11
+  }
+]

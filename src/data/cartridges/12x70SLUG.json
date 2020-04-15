@@ -1,0 +1,79 @@
+[
+  {
+    "ammunitionId": "12x70SLUG",
+    "label": "AP-20",
+    "damage": 164,
+    "penetration": 32,
+    "armourDamage": 65
+  },
+  {
+    "ammunitionId": "12x70SLUG",
+    "label": "Dual Sabot",
+    "damage": 75,
+    "penetration": 17,
+    "armourDamage": 65
+  },
+  {
+    "ammunitionId": "12x70SLUG",
+    "label": "FTX",
+    "damage": 153,
+    "penetration": 18,
+    "armourDamage": 50
+  },
+  {
+    "ammunitionId": "12x70SLUG",
+    "label": "Grizzly",
+    "damage": 170,
+    "penetration": 12,
+    "armourDamage": 48
+  },
+  {
+    "ammunitionId": "12x70SLUG",
+    "label": "HP Sabot",
+    "damage": 160,
+    "penetration": 13,
+    "armourDamage": 46
+  },
+  {
+    "ammunitionId": "12x70SLUG",
+    "label": "HP SF",
+    "damage": 190,
+    "penetration": 2,
+    "armourDamage": 12
+  },
+  {
+    "ammunitionId": "12x70SLUG",
+    "label": "Led",
+    "damage": 147,
+    "penetration": 15,
+    "armourDamage": 45
+  },
+  {
+    "ammunitionId": "12x70SLUG",
+    "label": "Poleva-3",
+    "damage": 130,
+    "penetration": 17,
+    "armourDamage": 40
+  },
+  {
+    "ammunitionId": "12x70SLUG",
+    "label": "Poleva-6u",
+    "damage": 140,
+    "penetration": 20,
+    "armourDamage": 50
+  },
+  {
+    "ammunitionId": "12x70SLUG",
+    "label": "RIP",
+    "damage": 235,
+    "penetration": 0,
+    "armourDamage": 11
+  },
+  {
+    "ammunitionId": "12x70SLUG",
+    "label": ".50 BMG",
+    "damage": 177,
+    "penetration": 23,
+    "armourDamage": 57
+  }
+]

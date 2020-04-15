@@ -1,0 +1,65 @@
+[
+  {
+    "ammunitionId": "556x45",
+    "label": "55 FMJ",
+    "damage": 52,
+    "penetration": 24,
+    "armourDamage": 33
+  },
+  {
+    "ammunitionId": "556x45",
+    "label": "55 HP",
+    "damage": 72,
+    "penetration": 9,
+    "armourDamage": 22
+  },
+  {
+    "ammunitionId": "556x45",
+    "label": "M855",
+    "damage": 49,
+    "penetration": 26,
+    "armourDamage": 37
+  },
+  {
+    "ammunitionId": "556x45",
+    "label": "M855A1",
+    "damage": 44,
+    "penetration": 40,
+    "armourDamage": 52
+  },
+  {
+    "ammunitionId": "556x45",
+    "label": "M856",
+    "damage": 55,
+    "penetration": 23,
+    "armourDamage": 54
+  },
+  {
+    "ammunitionId": "556x45",
+    "label": "M856A1",
+    "damage": 51,
+    "penetration": 37,
+    "armourDamage": 52
+  },
+  {
+    "ammunitionId": "556x45",
+    "label": "M995",
+    "damage": 41,
+    "penetration": 53,
+    "armourDamage": 58
+  },
+  {
+    "ammunitionId": "556x45",
+    "label": "Mk 255 Mod 0",
+    "damage": 60,
+    "penetration": 17,
+    "armourDamage": 32
+  },
+  {
+    "ammunitionId": "556x45",
+    "label": "Warmage",
+    "damage": 85,
+    "penetration": 3,
+    "armourDamage": 14
+  }
+]

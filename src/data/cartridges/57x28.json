@@ -1,0 +1,51 @@
+[
+  {
+    "ammunitionId": "57x28",
+    "label": "L191",
+    "damage": 58,
+    "penetration": 33,
+    "armourDamage": 41
+  },
+  {
+    "ammunitionId": "57x28",
+    "label": "R37.F",
+    "damage": 98,
+    "penetration": 8,
+    "armourDamage": 7
+  },
+  {
+    "ammunitionId": "57x28",
+    "label": "R37.X",
+    "damage": 81,
+    "penetration": 11,
+    "armourDamage": 14
+  },
+  {
+    "ammunitionId": "57x28",
+    "label": "SB193",
+    "damage": 54,
+    "penetration": 35,
+    "armourDamage": 37
+  },
+  {
+    "ammunitionId": "57x28",
+    "label": "SS190",
+    "damage": 49,
+    "penetration": 37,
+    "armourDamage": 43
+  },
+  {
+    "ammunitionId": "57x28",
+    "label": "SS197SR",
+    "damage": 62,
+    "penetration": 20,
+    "armourDamage": 22
+  },
+  {
+    "ammunitionId": "57x28",
+    "label": "SS198LF",
+    "damage": 74,
+    "penetration": 10,
+    "armourDamage": 15
+  }
+]

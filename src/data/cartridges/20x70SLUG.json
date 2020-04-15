@@ -1,0 +1,30 @@
+[
+  {
+    "ammunitionId": "20x70SLUG",
+    "label": "Devastator",
+    "damage": 188,
+    "penetration": 4,
+    "armourDamage": 13
+  },
+  {
+    "ammunitionId": "20x70SLUG",
+    "label": "Poleva-3",
+    "damage": 110,
+    "penetration": 14,
+    "armourDamage": 35
+  },
+  {
+    "ammunitionId": "20x70SLUG",
+    "label": "Poleva-6u",
+    "damage": 120,
+    "penetration": 17,
+    "armourDamage": 40
+  },
+  {
+    "ammunitionId": "20x70SLUG",
+    "label": "Star",
+    "damage": 134,
+    "penetration": 16,
+    "armourDamage": 42
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "ammunitionId": "9x39",
+    "label": "7N9 SPP",
+    "damage": 67,
+    "penetration": 45,
+    "armourDamage": 56
+  },
+  {
+    "ammunitionId": "9x39",
+    "label": "7N12 BP",
+    "damage": 60,
+    "penetration": 50,
+    "armourDamage": 68
+  },
+  {
+    "ammunitionId": "9x39",
+    "label": "SP-5",
+    "damage": 68,
+    "penetration": 35,
+    "armourDamage": 52
+  },
+  {
+    "ammunitionId": "9x39",
+    "label": "SP-6",
+    "damage": 58,
+    "penetration": 43,
+    "armourDamage": 60
+  }
+]

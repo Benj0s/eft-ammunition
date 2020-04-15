@@ -1,0 +1,37 @@
+[
+  {
+    "ammunitionId": "762x39",
+    "label": "BP",
+    "damage": 58,
+    "penetration": 47,
+    "armourDamage": 63
+  },
+  {
+    "ammunitionId": "762x39",
+    "label": "HP",
+    "damage": 83,
+    "penetration": 15,
+    "armourDamage": 35
+  },
+  {
+    "ammunitionId": "762x39",
+    "label": "PS",
+    "damage": 54,
+    "penetration": 34,
+    "armourDamage": 52
+  },
+  {
+    "ammunitionId": "762x39",
+    "label": "T45M",
+    "damage": 62,
+    "penetration": 31,
+    "armourDamage": 46
+  },
+  {
+    "ammunitionId": "762x39",
+    "label": "US",
+    "damage": 56,
+    "penetration": 29,
+    "armourDamage": 42
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "ammunitionId": "762x51",
+    "label": "BPZ FMJ",
+    "damage": 88,
+    "penetration": 31,
+    "armourDamage": 33
+  },
+  {
+    "ammunitionId": "762x51",
+    "label": "M61",
+    "damage": 70,
+    "penetration": 68,
+    "armourDamage": 83
+  },
+  {
+    "ammunitionId": "762x51",
+    "label": "M62",
+    "damage": 79,
+    "penetration": 54,
+    "armourDamage": 75
+  },
+  {
+    "ammunitionId": "762x51",
+    "label": "M80",
+    "damage": 80,
+    "penetration": 41,
+    "armourDamage": 75
+  },
+  {
+    "ammunitionId": "762x51",
+    "label": "TPZ SP",
+    "damage": 60,
+    "penetration": 36,
+    "armourDamage": 40
+  },
+  {
+    "ammunitionId": "762x51",
+    "label": "Ultra Nosler",
+    "damage": 102,
+    "penetration": 15,
+    "armourDamage": 20
+  }
+]

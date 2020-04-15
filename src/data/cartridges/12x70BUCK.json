@@ -1,0 +1,37 @@
+[
+  {
+    "ammunitionId": "12x70BUCK",
+    "label": "5.25mm (x8)",
+    "damage": 34,
+    "penetration": 1,
+    "armourDamage": 15
+  },
+  {
+    "ammunitionId": "12x70BUCK",
+    "label": "6.5mm (x9)",
+    "damage": 29,
+    "penetration": 3,
+    "armourDamage": 26
+  },
+  {
+    "ammunitionId": "12x70BUCK",
+    "label": "7mm (x8)",
+    "damage": 32,
+    "penetration": 3,
+    "armourDamage": 26
+  },
+  {
+    "ammunitionId": "12x70BUCK",
+    "label": "8.5mm (x8)",
+    "damage": 44,
+    "penetration": 2,
+    "armourDamage": 26
+  },
+  {
+    "ammunitionId": "12x70BUCK",
+    "label": "Flechette (x8)",
+    "damage": 19,
+    "penetration": 28,
+    "armourDamage": 26
+  }
+]

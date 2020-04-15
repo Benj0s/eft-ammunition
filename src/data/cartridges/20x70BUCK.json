@@ -1,0 +1,30 @@
+[
+  {
+    "ammunitionId": "20x70BUCK",
+    "label": "5.6mm (x8)",
+    "damage": 25,
+    "penetration": 1,
+    "armourDamage": 12
+  },
+  {
+    "ammunitionId": "20x70BUCK",
+    "label": "6.2mm (x8)",
+    "damage": 21,
+    "penetration": 2,
+    "armourDamage": 13
+  },
+  {
+    "ammunitionId": "20x70BUCK",
+    "label": "7.3mm (x9)",
+    "damage": 22,
+    "penetration": 3,
+    "armourDamage": 13
+  },
+  {
+    "ammunitionId": "20x70BUCK",
+    "label": "7.5mm (x8)",
+    "damage": 24,
+    "penetration": 3,
+    "armourDamage": 14
+  }
+]

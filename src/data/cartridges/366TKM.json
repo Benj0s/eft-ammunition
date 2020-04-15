@@ -1,0 +1,23 @@
+[
+  {
+    "ammunitionId": "366TKM",
+    "label": "EKO",
+    "damage": 65,
+    "penetration": 30,
+    "armourDamage": 38
+  },
+  {
+    "ammunitionId": "366TKM",
+    "label": "FMJ",
+    "damage": 73,
+    "penetration": 20,
+    "armourDamage": 36
+  },
+  {
+    "ammunitionId": "366TKM",
+    "label": "Geska",
+    "damage": 80,
+    "penetration": 14,
+    "armourDamage": 38
+  }
+]

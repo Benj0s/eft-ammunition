@@ -1,0 +1,30 @@
+[
+  {
+    "ammunitionId": "46x30",
+    "label": "Action SX",
+    "damage": 65,
+    "penetration": 13,
+    "armourDamage": 39
+  },
+  {
+    "ammunitionId": "46x30",
+    "label": "AP SX",
+    "damage": 35,
+    "penetration": 47,
+    "armourDamage": 46
+  },
+  {
+    "ammunitionId": "46x30",
+    "label": "FMJ SX",
+    "damage": 43,
+    "penetration": 30,
+    "armourDamage": 41
+  },
+  {
+    "ammunitionId": "46x30",
+    "label": "Subsonic SX",
+    "damage": 41,
+    "penetration": 34,
+    "armourDamage": 46
+  }
+]
