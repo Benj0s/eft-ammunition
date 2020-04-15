@@ -87,7 +87,7 @@
   }
 
   text {
-    font-size: 12px;
+    font-size: 10px;
     fill: #ddd;
   }
 
@@ -117,6 +117,13 @@
   .mark-text:not(.selected) {
     opacity: 0.2;
     fill: #ddd;
+  }
+
+  @media (max-width: 610px) {
+    text {
+      font-size: 8px;
+      fill: #ddd;
+    }
   }
 </style>
 
@@ -164,7 +171,7 @@
           class="mark-circle {selectedAmmo.id === cartridge.ammunitionId ? 'selected' : ''}" />
         <text
           x={xScale(cartridge.damage)}
-          y={yScale(cartridge.penetration) + 20}
+          y={yScale(cartridge.penetration) + 16}
           text-anchor="middle"
           class="mark-text {selectedAmmo.id === cartridge.ammunitionId ? 'selected' : ''}">
           {cartridge.label}
