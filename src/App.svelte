@@ -11,6 +11,10 @@
 
     return { cartridges };
   }
+
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("/service-worker.js");
+  }
 </script>
 
 <style>
@@ -33,6 +37,11 @@
     flex-direction: column;
   }
 </style>
+
+<svelte:head>
+  <meta name="description" content="Ammunition Graph for Escape from Tarkov" />
+  <title>Ammunition Graph for Escape from Tarkov</title>
+</svelte:head>
 
 <div class="layout-wrapper">
   <Header {segment} />
