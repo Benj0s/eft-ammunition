@@ -1,5 +1,9 @@
 # Escape from Tarkov Ammunition Graph
 
+Ammunition Graph for Escape from Tarkov using Svelte.
+
+Ammunition data sourced from: [Escape from Tarkov Wiki](https://escapefromtarkov.gamepedia.com/Ammunition)
+
 ## Get started
 
 Install the dependencies...

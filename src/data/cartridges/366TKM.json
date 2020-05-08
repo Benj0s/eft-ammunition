@@ -9,14 +9,14 @@
   {
     "ammunitionId": "366TKM",
     "label": "FMJ",
-    "damage": 73,
-    "penetration": 20,
+    "damage": 88,
+    "penetration": 23,
     "armourDamage": 36
   },
   {
     "ammunitionId": "366TKM",
     "label": "Geska",
-    "damage": 80,
+    "damage": 93,
     "penetration": 14,
     "armourDamage": 38
   }

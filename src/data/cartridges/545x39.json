@@ -75,5 +75,12 @@
     "damage": 57,
     "penetration": 20,
     "armourDamage": 38
+  },
+  {
+    "ammunitionId": "545x39",
+    "label": "US",
+    "damage": 65,
+    "penetration": 15,
+    "armourDamage": 34
   }
 ]
