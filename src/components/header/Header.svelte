@@ -1,11 +1,10 @@
 <script>
-  import ammunitionDataService from "../services/ammunition.data.service.js";
-  import AmmoSelector from "./ammo-selector/AmmoSelector.svelte";
-  import CompareAmmoToggle from "./compare-ammo-toggle/CompareAmmoToggle.svelte";
+  import ammunitionDataService from "../../services/ammunition.data.service.js";
+  import AmmoSelector from "../ammo-selector/AmmoSelector.svelte";
+  import CompareAmmoToggle from "../compare-ammo-toggle/CompareAmmoToggle.svelte";
 
   async function fetchData() {
     const ammunition = await ammunitionDataService.list();
-
     return { ammunition };
   }
 </script>
@@ -84,7 +83,7 @@
     <h1>Ammunition Graph</h1>
   </div>
   {#await fetchData() then data}
-    <div class="header-actions">
+    <div class="header-actions"  data-testid="header-actions">
       <CompareAmmoToggle />
       <AmmoSelector ammunition={data.ammunition} />
     </div>

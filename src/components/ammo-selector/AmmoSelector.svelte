@@ -3,7 +3,6 @@
   import Icon from "@smui/select/icon/index";
   import AmmoIcon from "../../theme/icons/ammo.svg";
   import { displayedAmmo } from "../../store.js";
-  import { generateHexColourFromString } from "../../services/colour-mapper.service";
 
   export let ammunition;
 

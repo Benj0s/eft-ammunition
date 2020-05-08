@@ -1,0 +1,313 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AmmoGraph should render the component 1`] = `
+<body>
+  <div>
+    <div
+      class="ammo-graph svelte-ndcy92"
+    >
+      <div
+        class="graph svelte-ndcy92"
+      >
+        <svg
+          class="svelte-ndcy92"
+        >
+          <g
+            class="axis y-axis svelte-ndcy92"
+          >
+            <text
+              class="svelte-ndcy92"
+              text-anchor="middle"
+              transform="translate(0, 0) rotate(90)"
+            >
+              Penetration
+        
+            </text>
+            <g
+              class="tick tick-0 svelte-ndcy92"
+              transform="translate(0, -40)"
+            >
+              <line
+                class="svelte-ndcy92"
+                x1="40"
+                x2="-40"
+              />
+              <text
+                class="svelte-ndcy92"
+                x="36"
+                y="+4"
+              >
+                0
+              </text>
+            </g>
+            <g
+              class="tick tick-10 svelte-ndcy92"
+              transform="translate(0, -26.66666666666667)"
+            >
+              <line
+                class="svelte-ndcy92"
+                x1="40"
+                x2="-40"
+              />
+              <text
+                class="svelte-ndcy92"
+                x="36"
+                y="+4"
+              >
+                10
+              </text>
+              <text
+                class="armour-class svelte-ndcy92"
+                x="130"
+                y="-2"
+              >
+                Armour class 
+                1
+              </text>
+            </g>
+            <g
+              class="tick tick-20 svelte-ndcy92"
+              transform="translate(0, -13.33333333333334)"
+            >
+              <line
+                class="svelte-ndcy92"
+                x1="40"
+                x2="-40"
+              />
+              <text
+                class="svelte-ndcy92"
+                x="36"
+                y="+4"
+              >
+                20
+              </text>
+              <text
+                class="armour-class svelte-ndcy92"
+                x="130"
+                y="-2"
+              >
+                Armour class 
+                2
+              </text>
+            </g>
+            <g
+              class="tick tick-30 svelte-ndcy92"
+              transform="translate(0, 0)"
+            >
+              <line
+                class="svelte-ndcy92"
+                x1="40"
+                x2="-40"
+              />
+              <text
+                class="svelte-ndcy92"
+                x="36"
+                y="+4"
+              >
+                30
+              </text>
+              <text
+                class="armour-class svelte-ndcy92"
+                x="130"
+                y="-2"
+              >
+                Armour class 
+                3
+              </text>
+            </g>
+            <g
+              class="tick tick-40 svelte-ndcy92"
+              transform="translate(0, 13.333333333333329)"
+            >
+              <line
+                class="svelte-ndcy92"
+                x1="40"
+                x2="-40"
+              />
+              <text
+                class="svelte-ndcy92"
+                x="36"
+                y="+4"
+              >
+                40
+              </text>
+              <text
+                class="armour-class svelte-ndcy92"
+                x="130"
+                y="-2"
+              >
+                Armour class 
+                4
+              </text>
+            </g>
+            <g
+              class="tick tick-50 svelte-ndcy92"
+              transform="translate(0, 26.66666666666667)"
+            >
+              <line
+                class="svelte-ndcy92"
+                x1="40"
+                x2="-40"
+              />
+              <text
+                class="svelte-ndcy92"
+                x="36"
+                y="+4"
+              >
+                50
+              </text>
+              <text
+                class="armour-class svelte-ndcy92"
+                x="130"
+                y="-2"
+              >
+                Armour class 
+                5
+              </text>
+            </g>
+            <g
+              class="tick tick-60 svelte-ndcy92"
+              transform="translate(0, 40)"
+            >
+              <line
+                class="svelte-ndcy92"
+                x1="40"
+                x2="-40"
+              />
+              <text
+                class="svelte-ndcy92"
+                x="36"
+                y="+4"
+              >
+                60
+              </text>
+            </g>
+          </g>
+          <g
+            class="axis x-axis svelte-ndcy92"
+          >
+            <text
+              class="svelte-ndcy92"
+              text-anchor="middle"
+              x="0"
+              y="-2"
+            >
+              Damage
+            </text>
+            <g
+              class="tick svelte-ndcy92"
+              transform="translate(40,0)"
+            >
+              <line
+                class="svelte-ndcy92"
+                y1="-40"
+                y2="40"
+              />
+              <text
+                class="svelte-ndcy92"
+                y="-22"
+              >
+                0
+              </text>
+            </g>
+            <g
+              class="tick svelte-ndcy92"
+              transform="translate(24,0)"
+            >
+              <line
+                class="svelte-ndcy92"
+                y1="-40"
+                y2="40"
+              />
+              <text
+                class="svelte-ndcy92"
+                y="-30"
+              >
+                10
+              </text>
+            </g>
+            <g
+              class="tick svelte-ndcy92"
+              transform="translate(8,0)"
+            >
+              <line
+                class="svelte-ndcy92"
+                y1="-40"
+                y2="40"
+              />
+              <text
+                class="svelte-ndcy92"
+                y="-22"
+              >
+                20
+              </text>
+            </g>
+            <g
+              class="tick svelte-ndcy92"
+              transform="translate(-8,0)"
+            >
+              <line
+                class="svelte-ndcy92"
+                y1="-40"
+                y2="40"
+              />
+              <text
+                class="svelte-ndcy92"
+                y="-30"
+              >
+                30
+              </text>
+            </g>
+            <g
+              class="tick svelte-ndcy92"
+              transform="translate(-24,0)"
+            >
+              <line
+                class="svelte-ndcy92"
+                y1="-40"
+                y2="40"
+              />
+              <text
+                class="svelte-ndcy92"
+                y="-22"
+              >
+                40
+              </text>
+            </g>
+            <g
+              class="tick svelte-ndcy92"
+              transform="translate(-40,0)"
+            >
+              <line
+                class="svelte-ndcy92"
+                y1="-40"
+                y2="40"
+              />
+              <text
+                class="svelte-ndcy92"
+                y="-30"
+              >
+                50
+              </text>
+            </g>
+          </g>
+          <circle
+            class="mark-circle selected svelte-ndcy92"
+            cx="-40"
+            cy="40"
+            r="5"
+          />
+          <text
+            class="mark-text selected svelte-ndcy92"
+            text-anchor="middle"
+            x="-40"
+            y="56"
+          >
+            ABC
+          </text>
+        </svg>
+      </div>
+    </div>
+  </div>
+</body>
+`;

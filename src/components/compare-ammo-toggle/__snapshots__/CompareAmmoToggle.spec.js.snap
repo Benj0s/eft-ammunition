@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CompareAmmoToggle should render the component with toggle off by default 1`] = `
+<body>
+  <div>
+    <div
+      class="compare-ammo-toggle svelte-p12geb"
+    >
+      <div
+        class="
+    mdc-form-field
+    
+    
+  "
+      >
+        <div
+          class="mdc-switch"
+        >
+          <div
+            class="mdc-switch__track"
+          />
+           
+          <div
+            class="mdc-switch__thumb-underlay"
+          >
+            <div
+              class="mdc-switch__thumb"
+            >
+              <input
+                aria-checked="false"
+                class="mdc-switch__native-control "
+                id="SMUI-form-field-0"
+                role="switch"
+                type="checkbox"
+              />
+            </div>
+          </div>
+        </div>
+         
+         
+        <label
+          for="SMUI-form-field-0"
+        >
+          <span
+            class="ammo-toggle-label svelte-p12geb"
+            slot="label"
+          >
+            Compare
+          </span>
+        </label>
+      </div>
+    </div>
+  </div>
+</body>
+`;

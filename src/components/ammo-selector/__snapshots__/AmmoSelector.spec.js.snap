@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AmmoSelector should render the component 1`] = `
+<body>
+  <div>
+    <div
+      class="ammo-selector svelte-xl2f45"
+    >
+      <div
+        class="
+    mdc-select
+    
+    
+    mdc-select--outlined
+    
+    mdc-select--with-leading-icon
+    
+  "
+      >
+        <span
+          slot="icon"
+        >
+          <i
+            aria-hidden="true"
+            class="mdc-select__icon material-icons"
+            tabindex="-1"
+          >
+            <svg-mock />
+          </i>
+        </span>
+         
+        <i
+          class="mdc-select__dropdown-icon"
+        />
+         
+        <select
+          class="mdc-select__native-control "
+          id="SMUI-select-0"
+        >
+           
+          <option>
+            test-ammo-label-1
+             
+          </option>
+          
+          <option>
+            test-ammo-label-2
+             
+          </option>
+          
+          
+        </select>
+         
+         
+        <div
+          class="mdc-notched-outline mdc-notched-outline--upgraded mdc-notched-outline--notched"
+        >
+          <div
+            class="mdc-notched-outline__leading"
+          />
+           
+          <div
+            class="mdc-notched-outline__notch"
+            style="width: 0px;"
+          >
+            <label
+              class="mdc-floating-label mdc-floating-label--float-above"
+              for="SMUI-select-0"
+              style="transition-duration: 0s;"
+            >
+              Ammunition
+            </label>
+            
+            
+          </div>
+           
+          <div
+            class="mdc-notched-outline__trailing"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

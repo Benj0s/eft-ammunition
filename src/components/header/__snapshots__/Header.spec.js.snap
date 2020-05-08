@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should render the component 1`] = `
+<body>
+  <div>
+    <header
+      class="svelte-146npu8"
+    >
+      <div
+        class="header-title svelte-146npu8"
+      >
+        <h2
+          class="svelte-146npu8"
+        >
+          Escape from Tarkov
+        </h2>
+         
+        <h1
+          class="svelte-146npu8"
+        >
+          Ammunition Graph
+        </h1>
+      </div>
+       
+      <div
+        class="header-actions svelte-146npu8"
+        data-testid="header-actions"
+      >
+        <div
+          class="compare-ammo-toggle svelte-p12geb"
+        >
+          <div
+            class="
+    mdc-form-field
+    
+    
+  "
+          >
+            <div
+              class="mdc-switch"
+            >
+              <div
+                class="mdc-switch__track"
+              />
+               
+              <div
+                class="mdc-switch__thumb-underlay"
+              >
+                <div
+                  class="mdc-switch__thumb"
+                >
+                  <input
+                    aria-checked="false"
+                    class="mdc-switch__native-control "
+                    id="SMUI-form-field-0"
+                    role="switch"
+                    type="checkbox"
+                  />
+                </div>
+              </div>
+            </div>
+             
+             
+            <label
+              for="SMUI-form-field-0"
+            >
+              <span
+                class="ammo-toggle-label svelte-p12geb"
+                slot="label"
+              >
+                Compare
+              </span>
+            </label>
+          </div>
+        </div>
+         
+        <div
+          class="ammo-selector svelte-xl2f45"
+        >
+          <div
+            class="
+    mdc-select
+    
+    
+    mdc-select--outlined
+    
+    mdc-select--with-leading-icon
+    
+  "
+          >
+            <span
+              slot="icon"
+            >
+              <i
+                aria-hidden="true"
+                class="mdc-select__icon material-icons"
+                tabindex="-1"
+              >
+                <svg-mock />
+              </i>
+            </span>
+             
+            <i
+              class="mdc-select__dropdown-icon"
+            />
+             
+            <select
+              class="mdc-select__native-control "
+              id="SMUI-select-0"
+            >
+               
+              <option>
+                test-ammo-label
+                 
+              </option>
+              
+              
+            </select>
+             
+             
+            <div
+              class="mdc-notched-outline mdc-notched-outline--upgraded mdc-notched-outline--notched"
+            >
+              <div
+                class="mdc-notched-outline__leading"
+              />
+               
+              <div
+                class="mdc-notched-outline__notch"
+                style="width: 0px;"
+              >
+                <label
+                  class="mdc-floating-label mdc-floating-label--float-above"
+                  for="SMUI-select-0"
+                  style="transition-duration: 0s;"
+                >
+                  Ammunition
+                </label>
+                
+                
+              </div>
+               
+              <div
+                class="mdc-notched-outline__trailing"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
+</body>
+`;

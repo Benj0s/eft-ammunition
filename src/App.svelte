@@ -1,5 +1,5 @@
 <script>
-  import Header from "./components/Header.svelte";
+  import Header from "./components/header/Header.svelte";
   import AmmoGraph from "./components/ammo-graph/AmmoGraph.svelte";
 
   import cartridgesDataService from "./services/cartridges.data.service.js";
